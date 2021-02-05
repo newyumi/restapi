@@ -23,3 +23,9 @@ Middleware functions are functions that have access to the request object (req),
 - `next`는 에러가 발생하여 catch 에서 next(e)를 실행하면 에러 핸들러로 간다
 - Nodejs 기반 서버는 싱글 스레드이며 에러에 굉장히 취약, 첫 실행될 때 메모리 위에 상주하는 `실행형` 서버이기 때문에 처리하지 못하는 에러가 발생하면 프로세스가 죽어버린다. So, 에러 핸들링을 careful하게 해줘야 함 
 - `express-cli`로 시작하면 중앙에서 에러 핸들링을 어느정도 해주기 때문에 신경쓸 필요는 없다 
+
+
+### mysql 설치
+- 설치 후 접속 (127.0.0.1:3306 <- default port>)
+- arctype 프로그램 사용
+- sequelize 공식문서에서 require로 사용하기를 권고, import를 사용하면 수정을 좀 해야한다 
