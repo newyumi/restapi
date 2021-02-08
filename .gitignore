@@ -1,0 +1,18 @@
+# dependencies
+src/node_modules
+src/.vscode
+
+# production
+src//build
+
+# misc
+.DS_Store
+src/.env
+
+src/npm-debug.log*
+src/yarn-debug.log*
+src/yarn-error.log*
+
+src/package-lock.json*
+src/yarn.lock*
+src/setupProxy.js
