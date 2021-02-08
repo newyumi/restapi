@@ -4,6 +4,7 @@ src/.vscode
 
 # production
 src//build
+src/coverage
 
 # misc
 .DS_Store
